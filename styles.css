@@ -1,9 +1,5 @@
 /* CSS style for Tribute*/
 
-body{
-  overflow: hidden;
-}
-
 #header {
     background-image: radial-gradient(white, whitesmoke, #d8be77);
     margin: auto;
