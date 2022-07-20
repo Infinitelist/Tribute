@@ -1,0 +1,180 @@
+/* CSS style for Tribute*/
+
+body{
+  overflow: hidden;
+}
+
+#header {
+    background-image: radial-gradient(white, whitesmoke, #d8be77);
+    margin: auto;
+    height: 525px;
+    width: 100%;
+  }
+
+  #headline {
+    position: relative;
+    top: -15px;
+    margin: 20px auto 0 auto;
+    color: #FDBB14;
+    text-align: center;
+  }
+
+  hr{
+    border: 1px solid black;
+    margin: 0;
+  }
+
+  .name {
+    font-size: 80%;
+    text-align: right;
+  }
+
+  #footer {
+    background-color: #272016;
+    height: 370px;
+    width: 100%;
+  }
+
+  .Wiki-link {
+    position: relative;
+    top: 52%;
+    margin: 0 auto;
+    font-size: small;
+    text-align: center;
+    color: #FDBB14;
+    opacity: 0.8;
+  }
+
+  #tribute-link{
+    color: #FB9902;
+    opacity: none;
+  }
+
+/* Image pop-up css style---------------------------------------------------------------- */
+
+img{
+display: block;
+padding: 10px;
+box-shadow: 0px 0px 20px 15px white;
+}
+
+#image {
+border-radius: 50%;
+transition: 0.3s;
+margin: auto;
+top: 40px;
+}
+
+#img-div{
+  margin: 25px auto;
+}
+
+/* Slide text transition CSS style ------------------------------------------------------- */
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin: 0;}
+.mySlides {display: none}
+
+.mySlides{
+padding: 0px 75px;
+font-size: 27px;
+text-align: center;
+color: white;
+} 
+
+/* Slideshow container */
+.slideshow-container {
+max-width: 1000px;
+position: absolute;
+margin: auto;
+top: 560px;
+left: 0;
+right: 0;
+bottom: 0;
+}
+
+.one-line{
+  margin-top: 25px;
+}
+
+.two-line{
+  margin-top: 20px;
+}
+
+.three-line{
+  margin-top: 10px;
+}
+
+.intro, .outro{
+  margin-top: -10px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 35%;
+width: auto;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 50px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+
+}
+
+/* The dots/bullets/indicators */
+.dot {
+position: relative;
+height: 30px;
+width: 30px;
+margin: 20px;
+cursor: pointer;
+margin-top: -80px;
+background-color: gold;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+background-color: white;
+}
+
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.prev, .next, .text {font-size: 11px}
+}
+
+
