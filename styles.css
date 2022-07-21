@@ -10,10 +10,14 @@
 
   #headline {
     position: relative;
-    top: -15px;
+    top: 0px;
     margin: 20px auto 0 auto;
     color: #FDBB14;
     text-align: center;
+  }
+
+  p, blockquote{
+    margin-top: 0;
   }
 
   hr{
@@ -28,14 +32,15 @@
 
   #footer {
     background-color: white;
-    height: 370px;
+    height: 60px;
     width: 100%;
   }
 
   .Wiki-link {
-    position: relative;
-    top: 60%;
-    margin: 0 auto;
+    position:inherit;
+    top: 90%;
+    left: 35%;
+    margin: 120px auto;
     font-size: small;
     text-align: center;
     color: #FDBB14;
@@ -82,35 +87,16 @@ font-family: 'Rubik', Verdana;
 /* Slideshow container */
 .slideshow-container {
 max-width: 1000px;
-position: absolute;
+position: relative;
 margin: auto;
-top: 560px;
-left: 0;
-right: 0;
-bottom: 0;
-}
-
-.one-line{
-  margin-top: 25px;
-}
-
-.two-line{
-  margin-top: 20px;
-}
-
-.three-line{
-  margin-top: 10px;
-}
-
-.intro, .outro{
-  margin-top: -10px;
+top: 15px;
 }
 
 /* Next & previous buttons */
 .prev, .next {
 cursor: pointer;
 position: absolute;
-top: 45%;
+top: 10%;
 width: auto;
 margin-top: -22px;
 color: #272016;
@@ -132,9 +118,8 @@ border-radius: 3px 0 0 3px;
 position: relative;
 height: 30px;
 width: 30px;
-margin: 20px;
+margin: -80px 20px 0 20px;
 cursor: pointer;
-margin-top: -80px;
 background-color: gold;
 border-radius: 50%;
 display: inline-block;
